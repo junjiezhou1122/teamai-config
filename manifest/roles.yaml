@@ -1,20 +1,25 @@
-# Roles manifest
-# Define team roles and their resource access
+version: 1
 
 roles:
   - id: frontend
     description: Frontend development skills
-    skills:
-      - "skills/emil-kowalski/*"
-      - "skills/taste-skill/*"
-      - "skills/clone-website/*"
+    resources:
+      skills:
+        - "skills/emil-kowalski/*"
+        - "skills/taste-skill/*"
+        - "skills/clone-website/*"
+      knowledge: []
 
   - id: backend
     description: Backend development skills
-    skills:
-      - "skills/backend/*"
+    resources:
+      skills:
+        - "skills/backend/*"
+      knowledge: []
 
   - id: all
     description: All skills and resources
-    skills:
-      - "skills/*"
+    resources:
+      skills:
+        - "skills/*"
+      knowledge: []
