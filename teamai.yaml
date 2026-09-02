@@ -2,7 +2,6 @@ team: my-team
 description: TeamAI shared resources
 repo: https://github.com/junjiezhou1122/teamai-config.git
 provider: github
-
 sharing:
   rules:
     enforced: []
@@ -10,3 +9,10 @@ sharing:
     localDir: ~/.teamai/docs
   env:
     injectShellProfile: true
+sources:
+  - name: emil-kowalski
+    repo: https://github.com/emilkowalski/skills.git
+  - name: taste-skill
+    repo: https://github.com/Leonxlnx/taste-skill.git
+  - name: clone-website
+    repo: https://github.com/braxtonROSE4/clone-any-website.git
