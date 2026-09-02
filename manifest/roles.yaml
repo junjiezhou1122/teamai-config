@@ -10,12 +10,14 @@ roles:
         - frontend/tools
         - frontend/thinking
         - frontend/research
+      knowledge: []
 
   - id: backend
     description: Backend development
     resources:
       skills:
         - backend
+      knowledge: []
 
   - id: designer
     description: UI/UX designers - animation, design, frontend tools
@@ -24,6 +26,7 @@ roles:
         - frontend/emil-kowalski
         - frontend/taste-skill
         - frontend/tools
+      knowledge: []
 
   - id: researcher
     description: Research-oriented - thinking methods and research
@@ -31,6 +34,7 @@ roles:
       skills:
         - frontend/research
         - frontend/thinking
+      knowledge: []
 
   - id: all
     description: All skills across all namespaces
@@ -38,3 +42,4 @@ roles:
       skills:
         - frontend
         - backend
+      knowledge: []
