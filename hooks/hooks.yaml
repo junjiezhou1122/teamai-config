@@ -1,0 +1,11 @@
+# Team Hooks 配置
+# https://github.com/Tencent/teamai-cli/blob/main/docs/hooks.md
+
+hooks: []
+# 示例：
+# - id: block-secret
+#   description: Scan for secrets before commit
+#   event: PreToolUse
+#   matcher: Bash
+#   command: 'bash -lc "~/.teamai/team-scripts/scan-secret.sh" || true'
+#   tools: [claude, cursor]

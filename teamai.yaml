@@ -1,0 +1,27 @@
+# teamai configuration
+# https://github.com/Tencent/teamai-cli
+
+version: "1.0"
+name: personal-harness
+
+# 知识共享设置
+sharing:
+  recall:
+    enabled: false  # 自动召回，默认关闭
+  session:
+    friction_threshold: 3  # 触发学习提示的摩擦阈值
+
+# 角色定义（可扩展）
+roles:
+  default:
+    skills:
+      - "skills/*"
+    rules:
+      - "rules/*"
+    docs:
+      - "docs/*"
+
+# 分析设置
+analytics:
+  session_save_enabled: true
+  digest_weekly: true

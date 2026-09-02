@@ -1,0 +1,10 @@
+# MCP Servers 配置
+# https://github.com/Tencent/teamai-cli/blob/main/docs/mcp.md
+
+servers: []
+# 示例：
+# - name: gpu-analysis
+#   transport: http
+#   url: https://example.com/api/mcp
+#   headers:
+#     Authorization: "Bearer ${GPU_ANALYSIS_TOKEN}"
