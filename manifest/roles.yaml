@@ -2,22 +2,39 @@ version: 1
 
 roles:
   - id: frontend
-    description: Frontend development skills
+    description: Frontend development - UI, animation, design, tools
     resources:
       skills:
-        - "skills/*"
-      knowledge: []
+        - frontend/emil-kowalski
+        - frontend/taste-skill
+        - frontend/tools
+        - frontend/thinking
+        - frontend/research
 
   - id: backend
-    description: Backend development skills
+    description: Backend development
     resources:
       skills:
-        - "skills/backend/*"
-      knowledge: []
+        - backend
+
+  - id: designer
+    description: UI/UX designers - animation, design, frontend tools
+    resources:
+      skills:
+        - frontend/emil-kowalski
+        - frontend/taste-skill
+        - frontend/tools
+
+  - id: researcher
+    description: Research-oriented - thinking methods and research
+    resources:
+      skills:
+        - frontend/research
+        - frontend/thinking
 
   - id: all
-    description: All skills and resources
+    description: All skills across all namespaces
     resources:
       skills:
-        - "skills/*"
-      knowledge: []
+        - frontend
+        - backend
