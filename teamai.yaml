@@ -2,6 +2,28 @@ team: my-team
 description: TeamAI shared resources
 repo: https://github.com/junjiezhou1122/teamai-config.git
 provider: github
+
+# Sources - 外部 Skills 仓库
+sources:
+  - name: emil-kowalski
+    url: https://github.com/emilkowalski/skills.git
+    description: Animation and design skills by Vercel/Linear ex-engineer
+  - name: taste-skill
+    url: https://github.com/Leonxlnx/taste-skill.git
+    description: Anti-slop frontend framework for design taste
+  - name: clone-website
+    url: https://github.com/braxtonROSE4/clone-any-website.git
+    description: Pixel-perfect website cloning with ego-browser
+
+# Roles - 角色定义
+roles:
+  frontend:
+    description: Frontend development skills
+    skills:
+      - "skills/emil-kowalski/*"
+      - "skills/taste-skill/*"
+      - "skills/clone-website/*"
+
 sharing:
   rules:
     enforced: []
