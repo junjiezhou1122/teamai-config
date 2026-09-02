@@ -1,8 +1,9 @@
 username: junjiezhou1122
-updatedAt: 2026-09-02T15:21:00.673Z
+updatedAt: 2026-09-02T15:48:40.930Z
 skills: {}
-interventions:
-  sessions: 2
-  interrupt: 0
-  toolReject: 0
-  correction: 0
+prompts: 1
+tokens:
+  input: 83385
+  output: 2112
+  cacheRead: 117117
+  cacheCreation: 11260
