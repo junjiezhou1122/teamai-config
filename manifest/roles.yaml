@@ -2,7 +2,7 @@
 # Define team roles and their resource access
 
 roles:
-  frontend:
+  - id: frontend
     description: Frontend development skills
     skills:
       - "skills/*"
@@ -11,7 +11,7 @@ roles:
     docs:
       - "docs/*"
 
-  backend:
+  - id: backend
     description: Backend development skills
     skills:
       - "skills/*"
@@ -20,7 +20,7 @@ roles:
     docs:
       - "docs/*"
 
-  all:
+  - id: all
     description: All skills and resources
     skills:
       - "skills/*"
