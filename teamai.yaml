@@ -6,13 +6,13 @@ provider: github
 # Sources - 外部 Skills 仓库
 sources:
   - name: emil-kowalski
-    url: https://github.com/emilkowalski/skills.git
+    repo: https://github.com/emilkowalski/skills.git
     description: Animation and design skills by Vercel/Linear ex-engineer
   - name: taste-skill
-    url: https://github.com/Leonxlnx/taste-skill.git
+    repo: https://github.com/Leonxlnx/taste-skill.git
     description: Anti-slop frontend framework for design taste
   - name: clone-website
-    url: https://github.com/braxtonROSE4/clone-any-website.git
+    repo: https://github.com/braxtonROSE4/clone-any-website.git
     description: Pixel-perfect website cloning with ego-browser
 
 # Roles - 角色定义
@@ -20,9 +20,11 @@ roles:
   frontend:
     description: Frontend development skills
     skills:
-      - "skills/emil-kowalski/*"
-      - "skills/taste-skill/*"
-      - "skills/clone-website/*"
+      - "skills/*"
+    rules:
+      - "rules/*"
+    docs:
+      - "docs/*"
 
 sharing:
   rules:
