@@ -19,6 +19,13 @@ roles:
         - backend
       knowledge: []
 
+  - id: security
+    description: Security research, reverse engineering, penetration testing
+    resources:
+      skills:
+        - security
+      knowledge: []
+
   - id: designer
     description: UI/UX designers - animation, design, frontend tools
     resources:
@@ -36,10 +43,20 @@ roles:
         - frontend/thinking
       knowledge: []
 
+  - id: fullstack
+    description: Full-stack developers - frontend + backend + security
+    resources:
+      skills:
+        - frontend
+        - backend
+        - security
+      knowledge: []
+
   - id: all
     description: All skills across all namespaces
     resources:
       skills:
         - frontend
         - backend
+        - security
       knowledge: []
