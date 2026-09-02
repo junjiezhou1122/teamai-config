@@ -5,9 +5,7 @@ roles:
     description: Frontend development skills
     resources:
       skills:
-        - "skills/emil-kowalski/*"
-        - "skills/taste-skill/*"
-        - "skills/clone-website/*"
+        - "skills/*"
       knowledge: []
 
   - id: backend
