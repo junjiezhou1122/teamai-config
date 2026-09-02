@@ -1,0 +1,30 @@
+# Roles manifest
+# Define team roles and their resource access
+
+roles:
+  frontend:
+    description: Frontend development skills
+    skills:
+      - "skills/*"
+    rules:
+      - "rules/*"
+    docs:
+      - "docs/*"
+
+  backend:
+    description: Backend development skills
+    skills:
+      - "skills/*"
+    rules:
+      - "rules/*"
+    docs:
+      - "docs/*"
+
+  all:
+    description: All skills and resources
+    skills:
+      - "skills/*"
+    rules:
+      - "rules/*"
+    docs:
+      - "docs/*"
