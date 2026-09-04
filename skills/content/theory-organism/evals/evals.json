@@ -1,0 +1,23 @@
+{
+  "skill_name": "theory-organism",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Run theory-organism on AI Agent coordination",
+      "expected_output": "5 theory cards generated with predictions and scores",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Generate theory cards about multi-agent task allocation using objective verification",
+      "expected_output": "Theory cards with testable predictions, evidence matching, and RETAIN/REFINE/PRUNE verdicts",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Use theory-organism to research AI Agent emergence and verify theories against historical data",
+      "expected_output": "Verified theories with objective scores based on prediction accuracy, not LLM subjective judgment",
+      "files": []
+    }
+  ]
+}
