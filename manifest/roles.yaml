@@ -60,12 +60,8 @@ roles:
       skills:
         - content
   - id: resource-manager
-    description: 资源管理 - 管理 skills/rules/agents/mcp/env/hooks 等团队资源
+    description: 资源管理 - 仅管理 adding-proxy-models skill
     resources:
-      knowledge: &a1
+      knowledge: []
+      skills:
         - common
-        - frontend
-        - backend
-        - security
-        - content
-      skills: *a1
