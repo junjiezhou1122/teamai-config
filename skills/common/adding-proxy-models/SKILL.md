@@ -31,7 +31,14 @@ This skill captures that workflow so it transfers to any new provider with minim
 │   • OpenAI-compatible → New (or Edit existing) provider │
 │   • Fill: name, baseurl (with /v1), prefix, key(s)     │
 │   • Click "添加密钥条目" once per extra key              │
-│   • Pull models from endpoint ("从端点拉取")             │
+│   • Save                                                │
+│                                                         │
+│   ⚠ REQUIRED — DO NOT SKIP:                             │
+│   • Re-open the provider in Edit mode                   │
+│   • Click "从端点拉取" (Pull from endpoint) — this calls │
+│     the source's /v1/models and populates the model list│
+│   • Without this, the provider has 0 models and any     │
+│     request returns "model not found"                   │
 └─────────────────────────────────────────────────────────┘
 ```
 
@@ -42,8 +49,8 @@ This skill captures that workflow so it transfers to any new provider with minim
 | 1. Create key | `/keys` → 创建密钥 → 选分组 + 额度 | source dashboard |
 | 2. Get full key | `GET /api/v1/keys` (auth: user JWT, not sk-token) | source API |
 | 3. Login proxy | admin URL + admin token | proxy mgmt.html |
-| 4. Add provider | AI 提供商 → OpenAI 兼容 → 新建 | proxy dashboard |
-| 5. Pull models | "从端点拉取" button on saved provider | proxy edit mode |
+| 4. Add provider | AI 提供商 → OpenAI 兼容 → 新建 → 填表 → 保存 | proxy dashboard |
+| 5. **Pull models** ⚠ | Edit provider → "从端点拉取" 按钮 | proxy edit mode |
 
 ## Worked Example: chatgptpay.cc + CLI Proxy API
 
@@ -73,12 +80,21 @@ All quota = $0. The full `sk-...` keys come back from `GET /api/v1/keys` with th
 
 Form fields: 名称 / 服务地址 / 前缀 / 优先级 / API 密钥条目 (multi-key via "添加密钥条目") / 自定义模型.
 
+**⚠ Step 3 (often forgotten) — Pull models from endpoint**
+
+1. 保存 provider 后，重新点 **编辑** 进入该 provider
+2. 在「自定义模型」区块里点 **"从端点拉取"** 按钮
+3. 系统会调源服务的 `/v1/models` 接口，把模型清单灌入 provider
+4. 完成后 provider 的"模型数"从 0 变成实际数量
+
+不拉模型的话：provider 有 key 但无模型 → 所有请求返回 404 / "model not found" → 看起来"key 失效"但其实不是。
+
 ## Common Mistakes
 
 | Mistake | Why it breaks | Fix |
 |---|---|---|
+| **Skipped "从端点拉取"** | Provider has key but 0 models → every request fails with "model not found" | Always re-open the provider in Edit mode and click "从端点拉取" right after saving |
 | All keys in one provider | Load balancer picks a key that can't serve the model → 50% failures | Split by capability (OpenAI vs domestic) — at minimum 2 providers |
-| Forgot "从端点拉取" | Proxy doesn't know which models exist | Click after saving the provider |
 | Distinct prefix per provider with overlapping models | `gpt-5.5` ambiguity across two providers | If model lists overlap, use distinct prefixes; if not (this example), same prefix is fine |
 | Quota > 0 on every key | One key exhausts before failover | Set quota = 0 (unlimited per-key; account balance is the real limit) |
 | Key bound to wrong group | Key can't serve requested model → 404 | Bind each key to the group whose models it will serve |
@@ -96,3 +112,14 @@ Same 2-step pattern. Find the dashboard + admin token, then map the source servi
 | FennoAI / 七牛云 / 无限星河 | quick-add presets in proxy UI | one-click import |
 
 For a brand-new relay: locate the admin URL in the platform's docs, find/generate an admin token, then apply the 2-step pattern. The form fields vary (服务地址 / base URL / endpoint URL all mean the same thing).
+
+## Pre-flight Checklist
+
+Before declaring a new provider "done", verify each item:
+
+- [ ] Key created in source service with `quota = 0` and bound to the right group
+- [ ] Full `sk-...` key captured (not the masked `sk****` shown in UI)
+- [ ] Provider saved in proxy dashboard with name, baseurl (`/v1`), prefix, all keys
+- [ ] **Re-opened provider → clicked "从端点拉取" → model count > 0**
+- [ ] Test one request via proxy: `curl $PROXY_URL/v1/chat/completions -d '{"model":"<prefix>-<model>",...}'` returns 200
+- [ ] If 200 fails with auth/model errors, fix the key binding or re-pull models — don't blame the proxy
