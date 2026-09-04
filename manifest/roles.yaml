@@ -60,3 +60,10 @@ roles:
         - backend
         - security
       knowledge: []
+
+  - id: content
+    description: 小红书内容创作 - 笔记优化、标题生成、内容诊断
+    resources:
+      skills:
+        - content
+      knowledge: []
