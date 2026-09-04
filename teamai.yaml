@@ -14,3 +14,5 @@ sources:
     repo: https://github.com/braxtonROSE4/clone-any-website.git
   - name: backend
     repo: https://github.com/teamai-hub/template-backend.git
+  - name: dbskill
+    repo: https://github.com/dontbesilent2025/dbskill
