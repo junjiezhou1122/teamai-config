@@ -1,69 +1,71 @@
 version: 1
-
 roles:
   - id: frontend
     description: Frontend development - UI, animation, design, tools
     resources:
+      knowledge: []
       skills:
         - frontend/emil-kowalski
         - frontend/taste-skill
         - frontend/tools
         - frontend/thinking
         - frontend/research
-      knowledge: []
-
   - id: backend
     description: Backend development
     resources:
+      knowledge: []
       skills:
         - backend
-      knowledge: []
-
   - id: security
     description: Security research, reverse engineering, penetration testing
     resources:
+      knowledge: []
       skills:
         - security
-      knowledge: []
-
   - id: designer
     description: UI/UX designers - animation, design, frontend tools
     resources:
+      knowledge: []
       skills:
         - frontend/emil-kowalski
         - frontend/taste-skill
         - frontend/tools
-      knowledge: []
-
   - id: researcher
     description: Research-oriented - thinking methods and research
     resources:
+      knowledge: []
       skills:
         - frontend/research
         - frontend/thinking
-      knowledge: []
-
   - id: fullstack
     description: Full-stack developers - frontend + backend + security
     resources:
+      knowledge: []
       skills:
         - frontend
         - backend
         - security
-      knowledge: []
-
   - id: all
     description: All skills across all namespaces
     resources:
+      knowledge: []
       skills:
         - frontend
         - backend
         - security
-      knowledge: []
-
   - id: content
     description: 小红书内容创作 - 笔记优化、标题生成、内容诊断
     resources:
+      knowledge: []
       skills:
         - content
-      knowledge: []
+  - id: resource-manager
+    description: 资源管理 - 管理 skills/rules/agents/mcp/env/hooks 等团队资源
+    resources:
+      knowledge: &a1
+        - common
+        - frontend
+        - backend
+        - security
+        - content
+      skills: *a1
