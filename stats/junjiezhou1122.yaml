@@ -1,5 +1,5 @@
 username: junjiezhou1122
-updatedAt: 2026-10-05T17:30:11.434Z
+updatedAt: 2026-10-05T17:30:25.798Z
 skills:
   ego-browser:
     count: 2
@@ -28,12 +28,15 @@ skills:
   pstack:poteto-mode:
     count: 1
     lastUsed: 2026-10-05T17:29:35.002Z
+  pstack:how:
+    count: 1
+    lastUsed: 2026-10-05T17:30:22.208Z
 interventions:
-  sessions: 60
+  sessions: 61
   interrupt: 4
   toolReject: 1
   correction: 5
-prompts: 259
+prompts: 260
 tokens:
   input: 6165830
   output: 406892
@@ -146,7 +149,7 @@ daily:
     sessionsEnded: 1
     sessionsSucceeded: 1
     promptTurns: 3
-    durationMs: 190771
+    durationMs: 204380
     sessionsCorrected: 0
     pricedRequests: 0
     costMicros: 0
