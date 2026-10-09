@@ -1,12 +1,12 @@
 username: junjiezhou1122
-updatedAt: 2026-10-09T18:18:23.637Z
+updatedAt: 2026-10-09T18:34:28.394Z
 skills:
   ego-browser:
     count: 2
     lastUsed: 2026-10-05T17:28:14.597Z
   claude-api:
-    count: 22
-    lastUsed: 2026-10-09T18:10:40.054Z
+    count: 23
+    lastUsed: 2026-10-09T18:20:17.405Z
   update-config:
     count: 1
     lastUsed: 2026-09-30T13:49:20.593Z
@@ -23,8 +23,8 @@ skills:
     count: 1
     lastUsed: 2026-10-03T09:33:17.954Z
   pstack:unslop:
-    count: 51
-    lastUsed: 2026-10-09T18:10:47.221Z
+    count: 52
+    lastUsed: 2026-10-09T18:24:46.160Z
   pstack:poteto-mode:
     count: 17
     lastUsed: 2026-10-09T17:17:53.792Z
@@ -80,20 +80,23 @@ skills:
     count: 3
     lastUsed: 2026-10-09T14:46:43.425Z
   ideascientist:ideate:
-    count: 3
-    lastUsed: 2026-10-09T14:47:37.123Z
+    count: 4
+    lastUsed: 2026-10-09T18:34:26.116Z
   ideascientist:resume:
     count: 4
     lastUsed: 2026-10-09T18:04:58.179Z
   pstack:principle-fix-root-causes:
     count: 1
     lastUsed: 2026-10-09T15:43:07.413Z
+  pstack:tdd:
+    count: 1
+    lastUsed: 2026-10-09T18:30:35.441Z
 interventions:
-  sessions: 80
+  sessions: 81
   interrupt: 5
   toolReject: 1
   correction: 6
-prompts: 428
+prompts: 439
 tokens:
   input: 10332674
   output: 780410
@@ -215,8 +218,8 @@ daily:
   2026-10-09:
     sessionsEnded: 13
     sessionsSucceeded: 11
-    promptTurns: 136
-    durationMs: 24329973
+    promptTurns: 146
+    durationMs: 25293992
     sessionsCorrected: 1
     pricedRequests: 0
     costMicros: 0
