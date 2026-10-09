@@ -1,12 +1,12 @@
 username: junjiezhou1122
-updatedAt: 2026-10-09T11:54:47.882Z
+updatedAt: 2026-10-09T12:52:19.082Z
 skills:
   ego-browser:
     count: 2
     lastUsed: 2026-10-05T17:28:14.597Z
   claude-api:
-    count: 2
-    lastUsed: 2026-09-30T13:49:20.895Z
+    count: 11
+    lastUsed: 2026-10-09T12:24:14.546Z
   update-config:
     count: 1
     lastUsed: 2026-09-30T13:49:20.593Z
@@ -14,8 +14,8 @@ skills:
     count: 1
     lastUsed: 2026-09-30T13:49:21.161Z
   firecrawl-scrape:
-    count: 1
-    lastUsed: 2026-09-30T17:05:21.856Z
+    count: 3
+    lastUsed: 2026-10-09T12:43:40.827Z
   poteto-mode:
     count: 1
     lastUsed: 2026-10-02T14:30:54.066Z
@@ -23,45 +23,63 @@ skills:
     count: 1
     lastUsed: 2026-10-03T09:33:17.954Z
   pstack:unslop:
-    count: 4
-    lastUsed: 2026-10-09T11:53:01.258Z
+    count: 13
+    lastUsed: 2026-10-09T12:46:49.410Z
   pstack:poteto-mode:
-    count: 1
-    lastUsed: 2026-10-05T17:29:35.002Z
+    count: 9
+    lastUsed: 2026-10-09T12:46:26.886Z
   pstack:how:
-    count: 5
-    lastUsed: 2026-10-09T11:53:28.545Z
+    count: 7
+    lastUsed: 2026-10-09T12:26:33.963Z
   pstack:deslop:
-    count: 6
-    lastUsed: 2026-10-06T03:52:28.041Z
+    count: 7
+    lastUsed: 2026-10-09T12:48:31.089Z
   pstack:architect:
-    count: 4
-    lastUsed: 2026-10-05T17:34:22.238Z
+    count: 5
+    lastUsed: 2026-10-09T11:55:59.632Z
   pstack:arena:
-    count: 2
-    lastUsed: 2026-10-05T17:32:12.341Z
+    count: 3
+    lastUsed: 2026-10-09T11:56:39.134Z
   pstack:technical-writing:
-    count: 2
-    lastUsed: 2026-10-05T17:33:08.143Z
+    count: 5
+    lastUsed: 2026-10-09T12:46:37.166Z
   run:
-    count: 2
-    lastUsed: 2026-10-05T17:34:57.962Z
+    count: 3
+    lastUsed: 2026-10-09T12:07:42.866Z
   pstack:show-me-your-work:
-    count: 2
-    lastUsed: 2026-10-05T17:36:20.186Z
+    count: 3
+    lastUsed: 2026-10-09T12:00:21.260Z
   pstack:no-comments:
-    count: 2
-    lastUsed: 2026-10-05T18:00:07.760Z
+    count: 4
+    lastUsed: 2026-10-09T12:50:28.262Z
+  pstack:principle-model-the-domain:
+    count: 1
+    lastUsed: 2026-10-09T11:55:59.906Z
+  plugin-authoring:
+    count: 1
+    lastUsed: 2026-10-09T12:04:04.467Z
+  pstack:principle-laziness-protocol:
+    count: 1
+    lastUsed: 2026-10-09T12:06:49.098Z
+  pstack:principle-separate-before-serializing-shared-state:
+    count: 1
+    lastUsed: 2026-10-09T12:06:49.358Z
+  pstack:principle-prove-it-works:
+    count: 1
+    lastUsed: 2026-10-09T12:14:01.067Z
+  pstack:principle-test-behavior-not-implementation:
+    count: 1
+    lastUsed: 2026-10-09T12:20:07.590Z
 interventions:
-  sessions: 66
-  interrupt: 4
+  sessions: 67
+  interrupt: 5
   toolReject: 1
-  correction: 5
-prompts: 292
+  correction: 6
+prompts: 317
 tokens:
-  input: 7977265
-  output: 530685
-  cacheRead: 232144774
+  input: 8483689
+  output: 589689
+  cacheRead: 259646342
   cacheCreation: 541176
 daily:
   2026-09-02:
@@ -177,12 +195,12 @@ daily:
     cacheReadTokens: 128794496
     cacheEligibleInputTokens: 130462243
   2026-10-09:
-    sessionsEnded: 1
-    sessionsSucceeded: 1
-    promptTurns: 2
-    durationMs: 139790
-    sessionsCorrected: 0
+    sessionsEnded: 2
+    sessionsSucceeded: 0
+    promptTurns: 27
+    durationMs: 6486624
+    sessionsCorrected: 1
     pricedRequests: 0
     costMicros: 0
-    cacheReadTokens: 0
-    cacheEligibleInputTokens: 30067
+    cacheReadTokens: 27501568
+    cacheEligibleInputTokens: 28038059
