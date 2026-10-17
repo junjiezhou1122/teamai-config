@@ -1,5 +1,5 @@
 username: junjiezhou1122
-updatedAt: 2026-10-17T13:20:33.751Z
+updatedAt: 2026-10-17T13:24:36.039Z
 skills:
   ego-browser:
     count: 2
@@ -91,12 +91,15 @@ skills:
   pstack:tdd:
     count: 1
     lastUsed: 2026-10-09T18:30:35.441Z
+  meituan-coupon-workbuddy:
+    count: 1
+    lastUsed: 2026-10-17T13:20:42.151Z
 interventions:
-  sessions: 118
+  sessions: 119
   interrupt: 6
   toolReject: 2
   correction: 6
-prompts: 756
+prompts: 759
 tokens:
   input: 15218478
   output: 1308534
@@ -246,10 +249,10 @@ daily:
     cacheReadTokens: 1825792
     cacheEligibleInputTokens: 2092352
   2026-10-17:
-    sessionsEnded: 1
-    sessionsSucceeded: 1
-    promptTurns: 1
-    durationMs: 17173
+    sessionsEnded: 3
+    sessionsSucceeded: 3
+    promptTurns: 5
+    durationMs: 398732
     sessionsCorrected: 0
     pricedRequests: 0
     costMicros: 0
