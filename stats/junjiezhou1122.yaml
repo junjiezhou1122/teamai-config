@@ -1,5 +1,5 @@
 username: junjiezhou1122
-updatedAt: 2026-10-17T13:27:28.498Z
+updatedAt: 2026-10-17T13:28:26.276Z
 skills:
   ego-browser:
     count: 2
@@ -95,11 +95,11 @@ skills:
     count: 1
     lastUsed: 2026-10-17T13:20:42.151Z
 interventions:
-  sessions: 120
+  sessions: 121
   interrupt: 6
   toolReject: 2
   correction: 6
-prompts: 760
+prompts: 761
 tokens:
   input: 15218478
   output: 1308534
