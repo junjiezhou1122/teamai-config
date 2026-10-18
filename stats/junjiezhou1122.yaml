@@ -1,5 +1,5 @@
 username: junjiezhou1122
-updatedAt: 2026-10-17T13:28:26.276Z
+updatedAt: 2026-10-18T01:20:52.624Z
 skills:
   ego-browser:
     count: 2
@@ -94,12 +94,15 @@ skills:
   meituan-coupon-workbuddy:
     count: 1
     lastUsed: 2026-10-17T13:20:42.151Z
+  meituan-waimai-coupon:
+    count: 1
+    lastUsed: 2026-10-17T13:28:29.308Z
 interventions:
-  sessions: 121
+  sessions: 122
   interrupt: 6
   toolReject: 2
   correction: 6
-prompts: 761
+prompts: 762
 tokens:
   input: 15218478
   output: 1308534
