@@ -1,5 +1,5 @@
 username: junjiezhou1122
-updatedAt: 2026-11-17T10:57:06.267Z
+updatedAt: 2026-11-17T13:14:47.181Z
 skills:
   ego-browser:
     count: 2
@@ -101,15 +101,15 @@ skills:
     count: 1
     lastUsed: 2026-11-06T12:35:27.167Z
 interventions:
-  sessions: 160
+  sessions: 161
   interrupt: 6
   toolReject: 2
   correction: 6
-prompts: 843
+prompts: 859
 tokens:
-  input: 17945320
-  output: 1577202
-  cacheRead: 680442791
+  input: 18063094
+  output: 1588530
+  cacheRead: 681152807
   cacheCreation: 541176
 daily:
   2026-09-02:
@@ -346,17 +346,28 @@ daily:
     cacheReadTokens: 2591216
     cacheEligibleInputTokens: 2681805
     priceVersion: litellm-2026-10-31-b264711
+  2026-11-17:
+    sessionsEnded: 1
+    sessionsSucceeded: 1
+    promptTurns: 15
+    durationMs: 1222568
+    sessionsCorrected: 0
+    pricedRequests: 24
+    costMicros: 419830
+    cacheReadTokens: 710016
+    cacheEligibleInputTokens: 827790
+    priceVersion: reported
 attended:
   interventions:
-    sessions: 17
+    sessions: 18
     interrupt: 0
     toolReject: 0
     correction: 0
-  prompts: 38
+  prompts: 54
   tokens:
-    input: 1064177
-    output: 118136
-    cacheRead: 15026535
+    input: 1181951
+    output: 129464
+    cacheRead: 15736551
     cacheCreation: 0
   daily:
     2026-10-29:
@@ -401,6 +412,17 @@ attended:
       cacheReadTokens: 2591216
       cacheEligibleInputTokens: 2681805
       priceVersion: litellm-2026-10-31-b264711
+    2026-11-17:
+      sessionsEnded: 1
+      sessionsSucceeded: 1
+      promptTurns: 15
+      durationMs: 1222568
+      sessionsCorrected: 0
+      pricedRequests: 24
+      costMicros: 419830
+      cacheReadTokens: 710016
+      cacheEligibleInputTokens: 827790
+      priceVersion: reported
 outcomes:
   attended:
     none:
