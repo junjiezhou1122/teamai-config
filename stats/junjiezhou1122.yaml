@@ -1,5 +1,5 @@
 username: junjiezhou1122
-updatedAt: 2026-11-06T12:34:35.790Z
+updatedAt: 2026-11-17T10:57:06.267Z
 skills:
   ego-browser:
     count: 2
@@ -97,16 +97,19 @@ skills:
   meituan-waimai-coupon:
     count: 1
     lastUsed: 2026-10-17T13:28:29.308Z
+  adding-proxy-models:
+    count: 1
+    lastUsed: 2026-11-06T12:35:27.167Z
 interventions:
-  sessions: 159
+  sessions: 160
   interrupt: 6
   toolReject: 2
   correction: 6
-prompts: 839
+prompts: 843
 tokens:
-  input: 17854731
-  output: 1553286
-  cacheRead: 677851575
+  input: 17945320
+  output: 1577202
+  cacheRead: 680442791
   cacheCreation: 541176
 daily:
   2026-09-02:
@@ -332,17 +335,28 @@ daily:
     cacheReadTokens: 3057536
     cacheEligibleInputTokens: 3238328
     priceVersion: litellm-2026-10-31-b264711
+  2026-11-06:
+    sessionsEnded: 1
+    sessionsSucceeded: 1
+    promptTurns: 4
+    durationMs: 312295
+    sessionsCorrected: 0
+    pricedRequests: 45
+    costMicros: 66805
+    cacheReadTokens: 2591216
+    cacheEligibleInputTokens: 2681805
+    priceVersion: litellm-2026-10-31-b264711
 attended:
   interventions:
-    sessions: 16
+    sessions: 17
     interrupt: 0
     toolReject: 0
     correction: 0
-  prompts: 34
+  prompts: 38
   tokens:
-    input: 973588
-    output: 94220
-    cacheRead: 12435319
+    input: 1064177
+    output: 118136
+    cacheRead: 15026535
     cacheCreation: 0
   daily:
     2026-10-29:
@@ -376,11 +390,22 @@ attended:
       cacheReadTokens: 3057536
       cacheEligibleInputTokens: 3238328
       priceVersion: litellm-2026-10-31-b264711
+    2026-11-06:
+      sessionsEnded: 1
+      sessionsSucceeded: 1
+      promptTurns: 4
+      durationMs: 312295
+      sessionsCorrected: 0
+      pricedRequests: 45
+      costMicros: 66805
+      cacheReadTokens: 2591216
+      cacheEligibleInputTokens: 2681805
+      priceVersion: litellm-2026-10-31-b264711
 outcomes:
   attended:
     none:
-      sessions: 8
+      sessions: 9
       tokens:
-        input: 180792
-        output: 33374
+        input: 271381
+        output: 57290
       interventions: 0
