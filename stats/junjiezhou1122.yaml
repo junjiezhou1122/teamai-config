@@ -1,5 +1,5 @@
 username: junjiezhou1122
-updatedAt: 2026-11-19T14:32:05.674Z
+updatedAt: 2026-11-19T14:44:11.765Z
 skills:
   ego-browser:
     count: 2
@@ -101,15 +101,15 @@ skills:
     count: 1
     lastUsed: 2026-11-06T12:35:27.167Z
 interventions:
-  sessions: 163
+  sessions: 164
   interrupt: 6
   toolReject: 2
   correction: 6
-prompts: 867
+prompts: 875
 tokens:
-  input: 18091331
-  output: 1589090
-  cacheRead: 681313063
+  input: 18144698
+  output: 1589782
+  cacheRead: 681494439
   cacheCreation: 541176
 daily:
   2026-09-02:
@@ -349,25 +349,36 @@ daily:
   2026-11-17:
     sessionsEnded: 3
     sessionsSucceeded: 3
-    promptTurns: 24
-    durationMs: 1792490
+    promptTurns: 25
+    durationMs: 1846936
     sessionsCorrected: 0
     pricedRequests: 39
     costMicros: 497931
-    cacheReadTokens: 870272
-    cacheEligibleInputTokens: 1016283
+    cacheReadTokens: 922496
+    cacheEligibleInputTokens: 1095402
     priceVersion: litellm-2026-10-31-b264711
+  2026-11-19:
+    sessionsEnded: 1
+    sessionsSucceeded: 1
+    promptTurns: 7
+    durationMs: 163916
+    sessionsCorrected: 0
+    pricedRequests: 9
+    costMicros: 476645
+    cacheReadTokens: 129152
+    cacheEligibleInputTokens: 155624
+    priceVersion: reported
 attended:
   interventions:
-    sessions: 20
+    sessions: 21
     interrupt: 0
     toolReject: 0
     correction: 0
-  prompts: 62
+  prompts: 70
   tokens:
-    input: 1210188
-    output: 130024
-    cacheRead: 15896807
+    input: 1263555
+    output: 130716
+    cacheRead: 16078183
     cacheCreation: 0
   daily:
     2026-10-29:
@@ -415,14 +426,25 @@ attended:
     2026-11-17:
       sessionsEnded: 3
       sessionsSucceeded: 3
-      promptTurns: 24
-      durationMs: 1792490
+      promptTurns: 25
+      durationMs: 1846936
       sessionsCorrected: 0
       pricedRequests: 39
       costMicros: 497931
-      cacheReadTokens: 870272
-      cacheEligibleInputTokens: 1016283
+      cacheReadTokens: 922496
+      cacheEligibleInputTokens: 1095402
       priceVersion: litellm-2026-10-31-b264711
+    2026-11-19:
+      sessionsEnded: 1
+      sessionsSucceeded: 1
+      promptTurns: 7
+      durationMs: 163916
+      sessionsCorrected: 0
+      pricedRequests: 9
+      costMicros: 476645
+      cacheReadTokens: 129152
+      cacheEligibleInputTokens: 155624
+      priceVersion: reported
 outcomes:
   attended:
     none:
