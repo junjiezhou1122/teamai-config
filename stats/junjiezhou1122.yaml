@@ -1,5 +1,5 @@
 username: junjiezhou1122
-updatedAt: 2026-11-25T06:02:28.263Z
+updatedAt: 2026-11-28T04:16:34.916Z
 skills:
   ego-browser:
     count: 2
@@ -101,11 +101,11 @@ skills:
     count: 1
     lastUsed: 2026-11-06T12:35:27.167Z
 interventions:
-  sessions: 166
+  sessions: 167
   interrupt: 6
   toolReject: 2
   correction: 6
-prompts: 881
+prompts: 882
 tokens:
   input: 18250326
   output: 1590067
@@ -368,13 +368,23 @@ daily:
     cacheReadTokens: 234880
     cacheEligibleInputTokens: 366980
     priceVersion: reported
+  2026-11-28:
+    sessionsEnded: 1
+    sessionsSucceeded: 1
+    promptTurns: 1
+    durationMs: 1107
+    sessionsCorrected: 0
+    pricedRequests: 0
+    costMicros: 0
+    cacheReadTokens: 0
+    cacheEligibleInputTokens: 0
 attended:
   interventions:
-    sessions: 23
+    sessions: 24
     interrupt: 0
     toolReject: 0
     correction: 0
-  prompts: 76
+  prompts: 77
   tokens:
     input: 1369183
     output: 131001
@@ -445,10 +455,20 @@ attended:
       cacheReadTokens: 234880
       cacheEligibleInputTokens: 366980
       priceVersion: reported
+    2026-11-28:
+      sessionsEnded: 1
+      sessionsSucceeded: 1
+      promptTurns: 1
+      durationMs: 1107
+      sessionsCorrected: 0
+      pricedRequests: 0
+      costMicros: 0
+      cacheReadTokens: 0
+      cacheEligibleInputTokens: 0
 outcomes:
   attended:
     none:
-      sessions: 15
+      sessions: 16
       tokens:
         input: 576387
         output: 70155
